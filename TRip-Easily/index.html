@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to TripEasily</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="Search destinations...">
+                <button class="btn-light"">Search</button>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="Top">
+            <h2>Explore the World</h2>
+            <p>Discover new adventures and create lasting memories.</p>
+            <a href="#destinations" class="btn">Explore Destinations</a>
+        </div>
+    </section>
+    <h2 style="text-align: center;">International Packages</h2>
+
+    <section id="destinations">
+        <!-- <h2>Popular Destinations</h2>
+        <div class="destination">
+            <img src="paris.jpg" alt="Paris">
+            <h3>Paris, France</h3>
+            <p>Experience the romance of the City of Light.</p> -->
+            <div class="card" >
+                <img class="card-img-top" src="paris.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title">Paris, France</h3>
+                  <p class="card-text">Experience the romance of the City of Light.</p>
+                  <a href="#" class="btn btn-primary">Know More</a>
+                </div>
+              </div>
+        
+        <div class="card" >
+            <img class="card-img-top" src="tokyo.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h3 class="card-title">Tokyo, Japan</h3>
+              <p class="card-text">Discover the vibrant culture and cuisine of Tokyo..</p>
+              <a href="#" class="btn btn-primary">Know More</a>
+            </div>
+          </div>
+          <div class="card" >
+            <img class="card-img-top" src="rio-de-janeiro.jpg" alt="Rio de Janeiro">
+            <div class="card-body">
+              <h3 class="card-title">Rio de Janeiro, Brazil</h3>
+              <p class="card-text">Enjoy the beaches and vibrant atmosphere of Rio.</p>
+              <a href="#" class="btn btn-primary">Know More</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="card-img-top" src="rome.jpg" alt="Rome">
+            <div class="card-body">
+              <h3 class="card-title">Rome, Italy</h3>
+              <p class="card-text">Discover the ancient history and rich culture of Rome.</p>
+              <a href="#" class="btn btn-primary">Know More</a>
+            </div>
+          </div>
+        <!-- <div class="destination">
+            <img src="tokyo.jpg" alt="Tokyo">
+            <h3>Tokyo, Japan</h3>
+            <p>Discover the vibrant culture and cuisine of Tokyo.</p>
+        </div> -->
+        
+    </section>
+    <section id="hotels">
+         <h2>Your Comfort Our Priority</h2>
+        <!-- <!-- <div class="available-hotels">
+            <img src="Imperial.jpg" alt="The Imperial">
+            <h3>The Imperial</h3>
+            <p>Experience the Royalness</p>
+                <!-- Google Maps iframe for New York -->
+            <!-- </div>
+        </div>  -->
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="Imperial.jpg" alt="The Imperial">
+            <div class="card-body">
+                <h3>The Imperial</h3>
+                <p>Experience the Royalness</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="Shangri-la.jpg" alt="Shangri-la">
+            <div class="card-body">
+                <h3>Hotel Shangri-la</h3>
+                <p>feel the Luxury</p>
+            </div>
+          </div>
+
+        <!-- Destination 4: Sydney -->
+        <div class="destination">
+            <img src="sydney.jpg" alt="Sydney">
+            <h3>Sydney, Australia</h3>
+            <p>Explore the stunning landmarks of Sydney.</p>
+            <div class="map-container">
+                <!-- Google Maps iframe for Sydney -->
+            </div>
+        </div>
+
+        <!-- Destination 5: Rome -->
+        <div class="destination">
+            <img src="rome.jpg" alt="Rome">
+            <h3>Rome, Italy</h3>
+            <p>Discover the ancient history and rich culture of Rome.</p>
+            <div class="map-container">
+                
+            </div>
+        </div>
+
+        <!-- Destination 6: Rio de Janeiro -->
+        <div class="destination">
+            <img src="rio-de-janeiro.jpg" alt="Rio de Janeiro">
+            <h3>Rio de Janeiro, Brazil</h3>
+            <p>Enjoy the beaches and vibrant atmosphere of Rio.</p>
+            <div class="map-container">
+                <!-- Google Maps iframe for Rio de Janeiro -->
+            </div>
+        </div>
+
+        <!-- Destination 7: Bangkok -->
+        <div class="destination">
+            <img src="bangkok.jpg" alt="Bangkok">
+            <h3>Bangkok, Thailand</h3>
+            <p>Experience the bustling streets and temples of Bangkok.</p>
+            <div class="map-container">
+                <!-- Google Maps iframe for Bangkok -->
+            </div>
+        </div>
+
+        
+
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are passionate about travel and helping you plan your dream vacations.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, feel free to reach out to us.</p>
+        <address>
+            Email: <a href="TripEasily.com">info@tripEasily.com</a><br>
+            Phone: +91 829548****
+        </address>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Trip Easily</p>
+    </footer>
+</body>
+</html>

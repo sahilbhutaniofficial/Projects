@@ -1,0 +1,103 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+}
+
+.Top {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #120a0a;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.destination {
+    margin: 20px;
+    text-align: center;
+}
+
+.destination img {
+    height: 10rem;
+    width: 15rem;
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+#destinations{
+    display: flex;
+    /* justify-content: space-between; */
+    position: relative;
+
+
+}
+#destinations img{
+    /* margin: 5px;
+     height: 12rem;
+    width: 17rem; 
+    background-size:contain */
+    width: 100%;
+    height: 180px;
+    border-radius: 5px 5px 0 0;
+}
+#destinations .card{
+    width: 20rem;
+    margin-left: 20px;
+    box-shadow: 2px 5px 10px black;
+    
+}
+
+#destinations .card:hover{
+    box-shadow: 0 10px 16px black;
+}
+
+#hotels .card{
+    display: flex;
+    justify-content: space-around;
+}
